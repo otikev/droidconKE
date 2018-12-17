@@ -1,27 +1,25 @@
 package droiddevelopers254.droidconke.views.fragments;
 
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
-
-import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.viewpager.widget.ViewPager;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.google.android.material.tabs.TabLayout;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import droiddevelopers254.droidconke.HomeActivity;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import droiddevelopers254.droidconke.R;
+import droiddevelopers254.droidconke.views.activities.HomeActivity;
 
-public class ScheduleFragment extends Fragment {
+public class ScheduleFragment extends BaseFragment {
     private TabLayout tabLayout;
     private ViewPager viewPager;
 

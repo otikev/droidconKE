@@ -1,4 +1,4 @@
-package droiddevelopers254.droidconke;
+package droiddevelopers254.droidconke.views.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,7 +7,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -29,8 +28,9 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
+import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.ui.BottomNavigationBehaviour;
-import droiddevelopers254.droidconke.views.BaseActivity;
+import droiddevelopers254.droidconke.views.activities.BaseActivity;
 import droiddevelopers254.droidconke.views.activities.AuthenticateUserActivity;
 import droiddevelopers254.droidconke.views.activities.EventFeedbackActivity;
 import droiddevelopers254.droidconke.views.fragments.InfoFragment;

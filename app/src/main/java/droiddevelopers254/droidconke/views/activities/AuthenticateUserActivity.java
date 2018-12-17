@@ -6,7 +6,7 @@ import android.os.Build;
 import android.os.Bundle;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.content.ContextCompat;
-import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -25,9 +25,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
 
 import butterknife.BindView;
-import droiddevelopers254.droidconke.HomeActivity;
 import droiddevelopers254.droidconke.R;
-import droiddevelopers254.droidconke.views.BaseActivity;
 
 public class AuthenticateUserActivity extends BaseActivity {
 

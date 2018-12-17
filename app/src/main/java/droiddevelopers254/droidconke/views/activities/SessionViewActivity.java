@@ -17,7 +17,7 @@ import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -50,7 +50,6 @@ import droiddevelopers254.droidconke.models.SpeakersModel;
 import droiddevelopers254.droidconke.models.StarredSessionModel;
 import droiddevelopers254.droidconke.utils.ItemClickListener;
 import droiddevelopers254.droidconke.viewmodels.SessionDataViewModel;
-import droiddevelopers254.droidconke.views.BaseActivity;
 
 import static droiddevelopers254.droidconke.utils.SharedPref.PREF_NAME;
 

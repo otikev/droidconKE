@@ -1,10 +1,6 @@
 package droiddevelopers254.droidconke.views.fragments;
 
-import androidx.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,14 +8,13 @@ import android.view.ViewGroup;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 
+import androidx.annotation.NonNull;
 import droiddevelopers254.droidconke.BuildConfig;
 import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.models.TravelInfoModel;
-import droiddevelopers254.droidconke.models.WifiDetailsModel;
 import droiddevelopers254.droidconke.ui.CollapsibleCard;
-import droiddevelopers254.droidconke.viewmodels.TravelInfoViewModel;
 
-public class TravelFragment extends Fragment{
+public class TravelFragment extends BaseFragment{
     private static final String TAG = "TravelFragment";
 
     private CollapsibleCard shuttleServiceCard;

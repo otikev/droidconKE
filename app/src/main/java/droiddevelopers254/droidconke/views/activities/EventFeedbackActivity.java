@@ -4,13 +4,11 @@ import androidx.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
-import com.google.firebase.firestore.FirebaseFirestore;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -18,7 +16,6 @@ import butterknife.OnClick;
 import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.models.UserEventFeedback;
 import droiddevelopers254.droidconke.viewmodels.FeedBackViewModel;
-import droiddevelopers254.droidconke.views.BaseActivity;
 
 public class EventFeedbackActivity extends BaseActivity {
 

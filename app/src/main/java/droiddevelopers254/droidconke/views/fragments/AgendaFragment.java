@@ -1,29 +1,25 @@
 package droiddevelopers254.droidconke.views.fragments;
 
-import androidx.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.google.firebase.database.DatabaseError;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.annotation.NonNull;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.adapters.AgendaAdapter;
 import droiddevelopers254.droidconke.models.AgendaModel;
-import droiddevelopers254.droidconke.utils.AgendaData;
 import droiddevelopers254.droidconke.viewmodels.AgendaViewModel;
 
-public class AgendaFragment extends Fragment {
+public class AgendaFragment extends BaseFragment {
     RecyclerView recyclerView;
     AgendaAdapter agendaAdapter;
     List<AgendaModel> agendaModelList = new ArrayList<>();

@@ -1,28 +1,24 @@
 package droiddevelopers254.droidconke.views.fragments;
 
 
-import androidx.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.annotation.NonNull;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import droiddevelopers254.droidconke.BuildConfig;
 import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.adapters.EventTypeAdapter;
@@ -30,7 +26,7 @@ import droiddevelopers254.droidconke.models.EventTypeModel;
 import droiddevelopers254.droidconke.models.WifiDetailsModel;
 import droiddevelopers254.droidconke.viewmodels.EventTypeViewModel;
 
-public class EventFragment extends Fragment{
+public class EventFragment extends BaseFragment{
     RecyclerView recyclerView;
     EventTypeAdapter eventTypeAdapter;
     static RecyclerView.LayoutManager mLayoutManager;

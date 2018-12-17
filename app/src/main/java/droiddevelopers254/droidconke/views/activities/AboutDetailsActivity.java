@@ -3,17 +3,13 @@ package droiddevelopers254.droidconke.views.activities;
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
-import android.view.View;
-import android.widget.Toast;
 
-import com.google.firebase.database.DatabaseError;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +18,6 @@ import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.adapters.AboutDetailsAdapter;
 import droiddevelopers254.droidconke.models.AboutDetailsModel;
 import droiddevelopers254.droidconke.viewmodels.AboutDetailsViewModel;
-import droiddevelopers254.droidconke.views.BaseActivity;
 
 public class AboutDetailsActivity extends BaseActivity {
     RecyclerView recyclerView;

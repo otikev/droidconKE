@@ -1,4 +1,4 @@
-package droiddevelopers254.droidconke.views;
+package droiddevelopers254.droidconke.views.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -3,20 +3,15 @@ package droiddevelopers254.droidconke.views.activities;
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.FirebaseFirestore;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -25,7 +20,6 @@ import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.models.SessionsModel;
 import droiddevelopers254.droidconke.models.SessionsUserFeedback;
 import droiddevelopers254.droidconke.viewmodels.SessionDataViewModel;
-import droiddevelopers254.droidconke.views.BaseActivity;
 
 public class SessionFeedBackActivity extends BaseActivity {
 

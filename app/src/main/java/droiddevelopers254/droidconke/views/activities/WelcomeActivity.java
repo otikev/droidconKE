@@ -3,10 +3,7 @@ package droiddevelopers254.droidconke.views.activities;
 import android.animation.ArgbEvaluator;
 import android.os.Build;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import androidx.core.content.ContextCompat;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.fragment.app.Fragment;
@@ -26,11 +23,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import droiddevelopers254.droidconke.HomeActivity;
 import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.utils.SharedPref;
 import droiddevelopers254.droidconke.utils.WelcomeUtils;
-import droiddevelopers254.droidconke.views.BaseActivity;
 
 public class WelcomeActivity extends BaseActivity {
 

@@ -4,7 +4,6 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.content.SharedPreferences;
@@ -12,17 +11,9 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.Looper;
 import android.provider.Settings;
-import androidx.annotation.NonNull;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import androidx.core.app.ActivityCompat;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
-import android.os.Bundle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -51,12 +42,18 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.button.MaterialButton;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import droiddevelopers254.droidconke.R;
 
 import static droiddevelopers254.droidconke.utils.SharedPref.PREF_NAME;
 
-public class MapFragment extends Fragment implements OnMapReadyCallback {
+public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     LatLng senteuPlaza = new LatLng(-1.289256, 36.783180);
     private static final int DEFAULT_ZOOM = 17;
 
