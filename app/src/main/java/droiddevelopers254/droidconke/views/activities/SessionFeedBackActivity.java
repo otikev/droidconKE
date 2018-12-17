@@ -25,8 +25,9 @@ import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.models.SessionsModel;
 import droiddevelopers254.droidconke.models.SessionsUserFeedback;
 import droiddevelopers254.droidconke.viewmodels.SessionDataViewModel;
+import droiddevelopers254.droidconke.views.BaseActivity;
 
-public class SessionFeedBackActivity extends AppCompatActivity {
+public class SessionFeedBackActivity extends BaseActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;

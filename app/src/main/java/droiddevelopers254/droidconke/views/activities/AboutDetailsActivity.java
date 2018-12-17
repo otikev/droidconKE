@@ -22,8 +22,9 @@ import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.adapters.AboutDetailsAdapter;
 import droiddevelopers254.droidconke.models.AboutDetailsModel;
 import droiddevelopers254.droidconke.viewmodels.AboutDetailsViewModel;
+import droiddevelopers254.droidconke.views.BaseActivity;
 
-public class AboutDetailsActivity extends AppCompatActivity {
+public class AboutDetailsActivity extends BaseActivity {
     RecyclerView recyclerView;
     static RecyclerView.LayoutManager mLayoutManager;
     List<AboutDetailsModel> aboutDetailsList = new ArrayList<>();

@@ -30,6 +30,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 import droiddevelopers254.droidconke.ui.BottomNavigationBehaviour;
+import droiddevelopers254.droidconke.views.BaseActivity;
 import droiddevelopers254.droidconke.views.activities.AuthenticateUserActivity;
 import droiddevelopers254.droidconke.views.activities.EventFeedbackActivity;
 import droiddevelopers254.droidconke.views.fragments.InfoFragment;
@@ -38,7 +39,7 @@ import droiddevelopers254.droidconke.views.fragments.ScheduleFragment;
 
 import static droiddevelopers254.droidconke.utils.SharedPref.PREF_NAME;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends BaseActivity {
 
     @BindView(R.id.accountImg)
     CircleImageView accountImg;

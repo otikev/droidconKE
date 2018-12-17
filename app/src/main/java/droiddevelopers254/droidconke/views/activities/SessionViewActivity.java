@@ -50,10 +50,11 @@ import droiddevelopers254.droidconke.models.SpeakersModel;
 import droiddevelopers254.droidconke.models.StarredSessionModel;
 import droiddevelopers254.droidconke.utils.ItemClickListener;
 import droiddevelopers254.droidconke.viewmodels.SessionDataViewModel;
+import droiddevelopers254.droidconke.views.BaseActivity;
 
 import static droiddevelopers254.droidconke.utils.SharedPref.PREF_NAME;
 
-public class SessionViewActivity extends AppCompatActivity {
+public class SessionViewActivity extends BaseActivity {
     int sessionId, roomId;
 
     @BindView(R.id.txtSessionTime)

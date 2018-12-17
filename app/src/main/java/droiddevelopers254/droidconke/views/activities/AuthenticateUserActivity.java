@@ -27,8 +27,9 @@ import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
 import butterknife.BindView;
 import droiddevelopers254.droidconke.HomeActivity;
 import droiddevelopers254.droidconke.R;
+import droiddevelopers254.droidconke.views.BaseActivity;
 
-public class AuthenticateUserActivity extends AppCompatActivity {
+public class AuthenticateUserActivity extends BaseActivity {
 
     private static final int RC_SIGN_IN = 123;
     FirebaseAuth auth;

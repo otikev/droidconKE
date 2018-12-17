@@ -30,8 +30,9 @@ import droiddevelopers254.droidconke.HomeActivity;
 import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.utils.SharedPref;
 import droiddevelopers254.droidconke.utils.WelcomeUtils;
+import droiddevelopers254.droidconke.views.BaseActivity;
 
-public class WelcomeActivity extends AppCompatActivity {
+public class WelcomeActivity extends BaseActivity {
 
     /**
      * The {@link PagerAdapter} that will provide

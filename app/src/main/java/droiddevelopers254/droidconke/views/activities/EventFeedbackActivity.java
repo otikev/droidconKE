@@ -18,8 +18,9 @@ import butterknife.OnClick;
 import droiddevelopers254.droidconke.R;
 import droiddevelopers254.droidconke.models.UserEventFeedback;
 import droiddevelopers254.droidconke.viewmodels.FeedBackViewModel;
+import droiddevelopers254.droidconke.views.BaseActivity;
 
-public class EventFeedbackActivity extends AppCompatActivity {
+public class EventFeedbackActivity extends BaseActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
